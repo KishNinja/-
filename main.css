@@ -1,0 +1,56 @@
+#background {
+  background-color: darkcyan;
+}
+
+#background:hover {
+  background-color: black;
+}
+
+.text {
+  color: aliceblue;
+}
+
+.text:hover {
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+
+  /* Свойсвтво curcor должно быть в псевдоклассе hover, 
+  этот псевдокласс говорит что мы делаем с текстом если 
+  на него наводимя. */
+
+  cursor: progress;
+}
+
+.text:active {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.MainBox {
+  color: rgb(6, 80, 49);
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.MainBox:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+header p {
+  color: blueviolet;
+}
+
+header p:hover {
+  text-decoration: underline;
+}
+
+.Mlink {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.Mlink:visited {
+  color: rgb(207, 13, 13);
+  text-decoration: underline;
+}
